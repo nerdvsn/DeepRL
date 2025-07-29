@@ -1,0 +1,23 @@
+# Ausschließen von Modellen und Daten
+*.pt
+*.pkl
+*.h5
+*.ckpt
+*.onnx
+
+# Ausschließen großer Datenverzeichnisse
+/data/
+models/
+checkpoints/
+logs/
+
+# Jupyter Notebooks-Checkpoints ignorieren
+.ipynb_checkpoints/
+
+# Python-Caches
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode oder andere Editor-Dateien
+.vscode/
